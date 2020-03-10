@@ -1,0 +1,17 @@
+{
+  "name": "area",
+  "version": "1.0.1",
+  "description": "area image website",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express",
+    "googleapis"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^47.0.0"
+  }
+}

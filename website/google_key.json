@@ -1,0 +1,11 @@
+{
+  "web": {
+    "client_id":"377968007025-013sa07vehs51n1rau6qfmplp7esq964.apps.googleusercontent.com",
+    "project_id":"area-266412",
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret":"dXw6n2fh3lNh6URBVW_0P6xO",
+    "javascript_origins":["http://localhost:8080"]
+  }
+}

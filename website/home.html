@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Area</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/home.css">
+  </head>
+  <body>
+
+		<div class="d-flex align-items-stretch">
+			<nav id="sidebar" class="img" style="background-image: url(images/bg_1.jpg);">
+				<div class="p-4">
+		  		<h1><a href="home.html" class="logo">AREA<span>Epitech Area</span></a></h1>
+	        <ul class="list-unstyled components mb-5">
+	          <li class="active">
+                <div class="d-flex custom-control custom-switch">
+                    <a href="#"><span class="fa fa-spotify mr-3"></span> Spotify </a>
+                    <input type="checkbox" class="custom-control-input" id="customSwitchspotify">
+                    <label class="custom-control-label place-spotify" for="customSwitchspotify"></label>
+                </div>
+	          </li>
+	          <li>
+              <div class="d-flex custom-control custom-switch">
+                <a href="#"><span class="fa fa-google mr-3"></span> Google </a>
+                <input type="checkbox" class="custom-control-input" id="customSwitchgoogle">
+                <label class="custom-control-label place-google" for="customSwitchgoogle"></label>
+              </div>
+	          </li>
+	          <li>
+              <div class="d-flex custom-control custom-switch">
+                <a href="#"><span class="fa fa-linkedin mr-3"></span> Linkedin </a>
+                <input type="checkbox" class="custom-control-input" id="customSwitchlinkedin">
+                <label class="custom-control-label place-linkedin" for="customSwitchlinkedin"></label>
+              </div>
+	          </li>
+	          <li>
+              <div class="d-flex custom-control custom-switch">
+                <a href="#"><span class="fa fa-github mr-3"></span> GitHub </a>
+                <input type="checkbox" class="custom-control-input" id="customSwitchgithub">
+                <label class="custom-control-label place-github" for="customSwitchgithub"></label>
+              </div>
+	          </li>
+	          <li>
+              <div class="d-flex custom-control custom-switch">
+                <a href="#"><span class="fa fa-facebook mr-3"></span> Facebook </a>
+                <input type="checkbox" class="custom-control-input" id="customSwitchfacebook">
+                <label class="custom-control-label place-facebook" for="customSwitchfacebook"></label>
+              </div>
+              </li>
+              <li>
+                <div class="d-flex custom-control custom-switch">
+                  <a href="#"><span class="fa fa-twitter mr-3"></span> Twitter </a>
+                  <input type="checkbox" class="custom-control-input" id="customSwitchtwitter">
+                  <label class="custom-control-label place-twitter" for="customSwitchtwitter"></label>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex custom-control custom-switch">
+                  <a href="#"><span class="fa fa-discord mr-3"></span> Discord </a>
+                  <input type="checkbox" class="custom-control-input" id="customSwitchdiscord">
+                  <label class="custom-control-label place-discord" for="customSwitchdiscord"></label>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex custom-control custom-switch">
+                  <a href="#"><span class="fa fa-reddit mr-3"></span> Reddit </a>
+                  <input type="checkbox" class="custom-control-input" id="customSwitchreddit">
+                  <label class="custom-control-label place-reddit" for="customSwitchreddit"></label>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex custom-control custom-switch">
+                  <a href="#"><span class="fa fa-twitch mr-3"></span> Twitch </a>
+                  <input type="checkbox" class="custom-control-input" id="customSwitchtwitch">
+                  <label class="custom-control-label place-twitch" for="customSwitchtwitch"></label>
+                </div>
+              </li>
+              <li>
+                <a href="/logout"><span class="fa fa-sign-out mr-3 "></span> Log out</a>
+              </li>
+	        </ul>
+
+	        <div class="footer fixed-bottom p-4">
+	        	<p>Area, Epitech project</p>
+	        </div>
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+        <!-- Page Content  -->
+        <link rel="stylesheet" href="home.css">
+        <style>
+       .POSTbutton {
+          background: #9E9E9E;
+          border-radius: 60px;
+          padding: 5px 30px;
+          color: #fff;
+          text-decoration: none;
+          font-size: 1.45em;
+      }
+      .POSTbutton:hover {
+          -webkit-animation: hover 1200ms linear 2 alternate;
+          animation: hover 1200ms linear 2 alternate;
+      }
+
+/* Active state animation applied here */
+    .POSTbutton:active {
+        -webkit-animation: active 1200ms ease 1 alternate;
+        animation: active 1200ms ease 1 alternate;
+        background: #9E9E9E;
+    }
+    .ActionSelect {
+       font-size: 16px;
+       font-family: sans-serif;
+       font-weight: 700;
+       color: #444;
+       line-height: 1.3;
+       padding: .6em 1.4em .5em .8em;
+       width: 20%;
+       max-width: 20%;
+       box-sizing: border-box;
+       margin: 0;
+       border: 1px solid #aaa;
+       box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+       border-radius: .5em;
+       -moz-appearance: none;
+       -webkit-appearance: none;
+       appearance: none;
+       background-color: #fff;
+       background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+         linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+       background-repeat: no-repeat, repeat;
+       background-position: right .7em top 50%, 0 0;
+       background-size: .65em auto, 20%;
+   }
+   .ActionSelect::-ms-expand {
+       display: none;
+   }
+   .ActionSelect:hover {
+       border-color: #888;
+   }
+   .ActionSelect:focus {
+       border-color: #aaa;
+       box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+       box-shadow: 0 0 0 3px -moz-mac-focusring;
+       color: #222;
+       outline: none;
+   }
+   .ActionSelect option {
+       font-weight:normal;
+   }
+
+ .ReactionSelect {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.ReactionSelect::-ms-expand {
+    display: none;
+}
+.ReactionSelect:hover {
+    border-color: #888;
+}
+.ReactionSelect:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+.ReactionSelect option {
+    font-weight:normal;
+}
+
+       </style>
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="mb-4">Votre compte</h2>
+        <p>Vous pouvez retrouver ici tous vos services et vos actions !</p>
+        <p>Veuillez choisir vos actions à ajouter ci-dessous.</p>
+        <p>N'oubliez pas qe vos actions dépendent de vos services connectés</p>
+        <br>
+        <label for="mon_select" >CHOISIR UNE ACTION</label>
+        <div class="formfield-select--container">
+          <select id="ListActions" class="ActionSelect" name="Actions">
+          </select>
+          <input id ="ActionValueInput" name="ActionValueInput" type="text" placeholder="pas besoin de mettre de valeur">
+          <select id="ListReaction" class="ReactionSelect" name="Reactions">
+          </select>
+          <input id ="ReactionValueInput" name="ReactionValueInput" type="text" placeholder="pas besoin de mettre de valeur">
+
+          <button id="PostActionButton" type="submit" class="POSTbutton">Envoyer l'action</button>
+      </div>
+      <br>
+      <br>
+          <div id = "AllActionReactionOfUser"> MES ACTIONS REACTIONS</div>
+      </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script>
+
+    var url = window.location.href;
+    var parser = document.createElement("a");
+    parser.href = url;
+    var id = parser.search.match(/\d+/)[0];
+    var tmp;
+    $.ajax({
+        type: "GET",
+        url: ("http://localhost:8080/getServiceForUser?userid=" + id),
+        dataType: "json",
+        async: false,
+        success: function(data) {
+            tmp = data;
+            for (var i = 0; i < data.length; i++) {
+                document.getElementById("customSwitch" + data[i]).checked = true;
+            }
+        },
+        error: function(data) {
+            console.log("mauvaise réponse du serveur");
+        }
+    });
+    $.ajax({
+        type: "GET",
+        url: ("http://localhost:8080/getActionForUser?userid=" + id),
+        dataType: "json",
+        async: false,
+        success: function(data) {
+            for (var i = 0; i < data.length; i++) {
+ //               console.log("ma data ", data[i]);
+                option = document.createElement('option');
+                option.value = option.text = data[i];
+                document.getElementById("ListActions").add(option);
+            }
+        },
+        error: function(data) {
+            console.log("mauvaise réponse du serveur");
+        }
+    });
+    $.ajax({
+        type: "GET",
+        url: ("http://localhost:8080/getReactionForUser?userid=" + id),
+        dataType: "json",
+        async: false,
+        success: function(data) {
+            for (var i = 0; i < data.length; i++) {
+//                console.log("ma data ", data[i]);
+                option = document.createElement( 'option' );
+                option.value = option.text = data[i];
+                document.getElementById("ListReaction").add( option );
+            }
+        },
+        error: function(data) {
+            console.log("mauvaise réponse du serveur");
+        }
+    });
+    function reloadActionRection () {
+      $.ajax({
+          type: "GET",
+          url: ("http://localhost:8080/getActionReactionByUser?userid=" + id),
+          dataType: "json",
+          async: false,
+          success: function(datas) {
+            for (var i = 0; i < datas.length; i++) {
+              var data = String(datas[i]);
+              console.log("ma data au debut ->", data);
+              var res = data.split("|");
+              console.log("ma data au res ->", res);
+              var resaction = res[0].split(":");
+              console.log("ma data au resaction ->", resaction);
+              var resreaction = res[1].split(":");
+              console.log("ma data au resreaction ->", resreaction);
+              $("#AllActionReactionOfUser").append("<div> action : " + resaction[0] + ", value -> " + resaction[1] + " --- reaction " + resreaction[0] + ", value -> " + resreaction[1] + "            <a href=\"http://localhost:8080/deleteActionReactionForUser?userid=" + id + "&actionName=" + resaction[0] + "&actionValue=" + resaction[1] + "&reactionName=" + resreaction[0] + "&reactionValue=" + resreaction[1] + "\" class=\"button\">Remove</a></div>");
+            }
+          },
+          error: function(data) {
+              console.log("mauvaise réponse du serveur");
+          }
+      });
+    }
+    setInterval(function(){
+      reloadActionRection() // this will run after every 5 seconds
+    }, 5000);
+    $("#PostActionButton").click( function() {
+        var selectAction = document.getElementById("ListActions");
+        var selectReaction = document.getElementById('ListReaction');
+        var ActionInput = document.getElementById('ActionValueInput').value;
+        var ReactionInput = document.getElementById('ReactionValueInput').value;
+        console.log(selectAction.options[selectAction.selectedIndex].text);
+        console.log(selectReaction.options[selectReaction.selectedIndex].text);
+        $.ajax({
+            type: "GET",
+            url: ("http://localhost:8080/postActionReactionForUser?userid=" + id +"&actionName=" + selectAction.options[selectAction.selectedIndex].text +"&actionValue=" + ActionInput + "&reactionName=" + selectReaction.options[selectReaction.selectedIndex].text + "&reactionValue=" + ReactionInput),
+            dataType: "json",
+            async: false,
+            success: function(data) {
+                console.log("ma data POST--> ", data);
+            }
+        });
+    });
+    $( "#ListActions" ).change(function() {
+        var selectAction = document.getElementById("ListActions");
+        var value = selectAction.options[selectAction.selectedIndex].text;
+        if (value === "gmailNewMail" || value === "youtubeNewFriend" || value === "youtubeLikingVideo" || value === "youtubeDislikingVideo" || value === "githubNewRepo" || value === "spotifyListen" || value === "spotifyListenJul" || value === "spotifyNewPlaylist")
+            document.getElementById('ActionValueInput').placeholder =  "pas besoin de mettre une valeur";
+        if (value === "githubNewCommitsRepo")
+            document.getElementById('ActionValueInput').placeholder =  "user/repo ex: Martouche/BSQ";
+        if (value === "githubNewCommentsRepo")
+            document.getElementById('ActionValueInput').placeholder =  "user/repo ex: Martouche/BSQ";
+        if (value === "wetherTemperatureMax")
+            document.getElementById('ActionValueInput').placeholder =  "temp ex:10";
+        if (value === "wetherTemperatureMin")
+            document.getElementById('ActionValueInput').placeholder =  "temp ex:10";
+        if (value === "wetherHumidityMax")
+            document.getElementById('ActionValueInput').placeholder =  "humidity ex:30";
+        if (value === "wetherHumidityMin")
+            document.getElementById('ActionValueInput').placeholder =  "humidity ex:30";
+        if (value === "twitchStreamerIsOnline")
+            document.getElementById('ActionValueInput').placeholder =  "streamers name ex: wisethug";
+    });
+
+    $( "#ListReaction" ).change(function() {
+        var selectReaction = document.getElementById("ListReaction");
+        var value = selectReaction.options[selectReaction.selectedIndex].text;
+        if (value === "spotifyPause" || value === "spotifyNext" || value === "spotifyVolumeMax" || value === "githubCreateRepo")
+            document.getElementById('ReactionValueInput').placeholder =  "pas besoin de mettre une valeur";
+        if (value === "githubPostComment")
+            document.getElementById('ActionValueInput').placeholder =  "user/repo ex: Martouche/BSQ";
+        if (value === "githubReactionComments")
+            document.getElementById('ActionValueInput').placeholder =  "user/repo ex: Martouche/BSQ";
+        if (value === "youtubeReactionNewFriend")
+            document.getElementById('ActionValueInput').placeholder =  "username on youtube ex: xMrClyde";
+        if (value === "gmailSendMail")
+            document.getElementById('ActionValueInput').placeholder =  "email to send ex: maxence.svensson@epitech.eu";
+        if (value === "twitterNewPost")
+            document.getElementById('ActionValueInput').placeholder =  "message to tweet";
+    });
+
+    $("#customSwitchspotify").on( "click", function() {
+      if ($("#customSwitchspotify").is(':checked') && tmp.includes("spotify") == false) {
+          console.log("tmpp -->>>", tmp[0]);
+        document.location.href="http://localhost:8080/oauth2/autorize/spotify"
+      }
+      else {
+        document.location.href="http://localhost:8080/oauth2/logout/spotify?userid=" + id;
+      }
+    });
+    $("#customSwitchgoogle").on( "click", function() {
+      if ($("#customSwitchgoogle").is(':checked') && tmp.includes("google") == false) {
+        document.location.href="http://localhost:8080/oauth2/autorize/google"
+      }
+      else
+        document.location.href="http://localhost:8080/oauth2/logout/google?userid=" + id;
+    });
+    $("#customSwitchlinkedin").on( "click", function() {
+      if ($("#customSwitchlinkedin").is(':checked') && tmp.includes("linkedin") == false) {
+        document.location.href="http://localhost:8080/oauth2/autorize/linkedin"
+      }
+      else
+        document.location.href="http://localhost:8080/oauth2/logout/linkedin?userid=" + id;
+    });
+    $("#customSwitchgithub").on( "click", function() {
+      if ($("#customSwitchgithub").is(':checked') && tmp.includes("github") == false) {
+        document.location.href="http://localhost:8080/oauth2/autorize/github"
+      }
+      else
+        document.location.href="http://localhost:8080/oauth2/logout/github?userid=" + id;
+    });
+    $("#customSwitchfacebook").on( "click", function() {
+      if ($("#customSwitchfacebook").is(':checked') && tmp.includes("facebook") == false) {
+        document.location.href="http://localhost:8080/oauth2/autorize/facebook"
+      }
+      else
+        document.location.href="http://localhost:8080/oauth2/logout/facebook?userid=" + id;
+     });
+     $("#customSwitchtwitter").on( "click", function() {
+      if ($("#customSwitchtwitter").is(':checked') && tmp.includes("twitter") == false) {
+        document.location.href="http://localhost:8080/oauth2/autorize/twitter"
+      }
+      else
+        document.location.href="http://localhost:8080/oauth2/logout/twitter?userid=" + id;
+     });
+    $("#customSwitchdiscord").on( "click", function() {
+        if ($("#customSwitchdiscord").is(':checked') && tmp.includes("discord") == false) {
+          document.location.href="http://localhost:8080/oauth2/autorize/discord"
+        }
+        else
+          document.location.href="http://localhost:8080/oauth2/logout/discord?userid=" + id;
+      });
+      $("#customSwitchreddit").on( "click", function() {
+        if ($("#customSwitchreddit").is(':checked') && tmp.includes("reddit") == false) {
+          document.location.href="http://localhost:8080/oauth2/autorize/reddit"
+        }
+        else
+          document.location.href="http://localhost:8080/oauth2/logout/reddit?userid=" + id;
+      });
+      $("#customSwitchtwitch").on( "click", function() {
+        if ($("#customSwitchtwitch").is(':checked') && tmp.includes("twitch") == false) {
+          document.location.href="http://localhost:8080/oauth2/autorize/twitch"
+        }
+        else
+          document.location.href="http://localhost:8080/oauth2/logout/twitch?userid=" + id;
+      });
+
+    </script>
+  </body>
+</html>

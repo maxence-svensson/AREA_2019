@@ -1,0 +1,121 @@
+{
+  " client ": {
+    " host ": "localhost:8081"
+  } ,
+  " server ": {
+    " current_time ": 1531680780 ,
+    " services ": [{
+      " name ": " discord " ,
+      " actions ": [] ,
+      " reactions ": []
+    } , {
+      " name ": " facebook " ,
+      " actions ": [] ,
+      " reactions ": []
+    } , {
+      " name ": " linkedin " ,
+      " actions ": [] ,
+      " reactions ": []
+    } , {
+      " name ": " reddit " ,
+      " actions ": [] ,
+      " reactions ": []
+    } , {
+      " name ": " spotify " ,
+      " actions ": [{
+        " name ": " spotifyListen " ,
+        " description ": " The user is listening a song "
+      } , {
+        " name ": " spotifyListenJul " ,
+        " description ": " The user is listening a song of JUL "
+      } , {
+        " name ": " spotifyNewPlaylist " ,
+        " description ": " The user have a new playlist "
+      }] ,
+      " reactions ": [{
+        " name ": " spotifyVolumeMax " ,
+        " description ": " The volume of user is set to max "
+      } , {
+        " name ": " spotifyPause " ,
+        " description ": " The song is put in pause "
+      } , {
+        " name ": " spotifyNext " ,
+        " description ": " The song switch to a another one "
+      }]
+    } , {
+      " name ": " twitch " ,
+      " actions ": [{
+        " name ": " twitchStreamerIsOnline " ,
+        " description ": " a define streamer is online "
+      }] ,
+      " reactions ": []
+    } , {
+      " name ": " twitter " ,
+      " actions ": [] ,
+      " reactions ": [{
+        " name ": " twitterNewPost " ,
+        " description ": " The user post a tweet with a define message "
+      }]
+    } , {
+      " name ": " openwheter " ,
+      " actions ": [{
+        " name ": " wetherTemperatureMax " ,
+        " description ": " The temperature is upper than an define value at Nice"
+      },{
+        " name ": " wetherTemperatureMin " ,
+        " description ": " The temperature is lower than an define value at Nice"
+      },{
+        " name ": " wetherHumidityMax " ,
+        " description ": " The humidity is upper than an define value at Nice"
+      },{
+        " name ": " wetherHumidityMin " ,
+        " description ": " The humidity is lower than an define value at Nice"
+      }] ,
+      " reactions ": []
+    } , {
+      " name ": " google " ,
+      " actions ": [{
+        " name ": " gmailNewMail " ,
+        " description ": " The user have a new mail inbox "
+      } , {
+        " name ": " youtubeNewFriend " ,
+        " description ": " The user have a new follower on youtube "
+      } , {
+        " name ": " youtubeLikingVideo " ,
+        " description ": " The user have like a video on youtube "
+      }, {
+        " name ": " youtubeDislikingVideo " ,
+        " description ": " The user have disliking a video youtube"
+      }] ,
+      " reactions ": [{
+        " name ": " youtubeReactionNewFriend " ,
+        " description ": " The user follow a define user "
+      } , {
+        " name ": " gmailSendMail " ,
+        " description ": " The user send a basic mail to a define mail "
+      }]
+    } , {
+    " name ": " github " ,
+      " actions ": [{
+        " name ": " githubNewRepo " ,
+        " description ": " The user have a new repository "
+      } , {
+        " name ": " githubNewCommitsRepo " ,
+        " description ": " The user have a new commits on a define repository "
+      } , {
+        " name ": " githubNewCommentsRepo " ,
+        " description ": " The user have a new commits on a define repository/commits "
+      }] ,
+      " reactions ": [{
+        " name ": " githubPostComment " ,
+        " description ": " The user post a comment the last commit on a define repository "
+      } , {
+        " name ": " githubCreateRepo " ,
+        " description ": " The user create a repository "
+      } , {
+        " name ": " githubReactionComments " ,
+        " description ": " The user react with a heart on the last comment on repository/commit "
+      }]
+    }]
+  }
+}
